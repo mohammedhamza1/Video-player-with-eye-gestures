@@ -12,8 +12,8 @@ body {
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  margin-inline: auto;
   background-color: black;
+  height: 100%;
 }
 
 .video-container.theater,
@@ -256,3 +256,11 @@ video {
 .timeline-container:hover .timeline {
   height: 100%;
 }
+
+.page-wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+
+
