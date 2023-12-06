@@ -259,8 +259,41 @@ video {
 
 .page-wrapper {
   display: flex;
-  /* justify-content: space-between; */
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
 }
 
 
+.detectOnClick {
+  z-index: 0;
+}
 
+.detectOnClick img {
+  width: 100%;
+}
+
+.blend-shapes-item {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.blend-shapes-label {
+  display: flex;
+  width: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.blend-shapes-value {
+  display: flex;
+  height: 16px;
+  align-items: center;
+  background-color: #007f8b;
+}
